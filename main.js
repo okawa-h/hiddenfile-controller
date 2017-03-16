@@ -7,6 +7,7 @@ const _Tray          = _electron.Tray;
 const _dialog        = _electron.dialog;
 const _exec          = require('child_process').exec;
 const _command       = require(__dirname + '/src/utils/command.js');
+const _test = 'test';
 
 let _mainWindow;
 let _tray;
